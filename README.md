@@ -123,7 +123,9 @@ This project focuses on content generation and moderation to address inappropria
 
 - **Model Enhancement:**
   - Regularly update and fine-tune Generative AI models to improve content quality and relevance.
-    
+ 
+- **NB The generation delays for a while on opening the link due to the use of render for deployment roughly less than 15 seconds after that everything works out well.**
+  
 ## Deployment
 The application is deployed on Render. You can access the live version here:
 [AI Content Generator & Moderator.](https://content-ai-project-1.onrender.com)
