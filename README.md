@@ -1,4 +1,4 @@
-# AI Content Generator & Moderator Documentation.
+# AI Content Generator & Moderator Documentation
 
 ## 1. System Design and Architecture
 
@@ -126,11 +126,11 @@ This project focuses on content generation and moderation to address inappropria
     
 ## Deployment
 The application is deployed on Render. You can access the live version here:
-[AI Content Generator & Moderator](https://content-ai-project-1.onrender.com)
+[AI Content Generator & Moderator.](https://content-ai-project-1.onrender.com)
 
 ## Further Documentation
 The Google docs documentation on the project can be found:
-[Google Docs](https://docs.google.com/document/d/1qois6s9HkelGbigAZR7V02GQoM7tijVA0snLbUCT_Uo/edit?usp=sharing)
+[Google Docs.](https://docs.google.com/document/d/1qois6s9HkelGbigAZR7V02GQoM7tijVA0snLbUCT_Uo/edit?usp=sharing)
 
 ## Contributors
--**Kimani Vincent King'atua**: [Github Profile](https://github.com/xfince)
+-**Kimani Vincent King'atua**: [Github Profile.](https://github.com/xfince)
