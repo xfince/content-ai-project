@@ -1,4 +1,4 @@
-# AI Content Generator & Moderator Project Documentation
+# AI Content Generator & Moderator Documentation.
 
 ## 1. System Design and Architecture
 
