@@ -1,7 +1,13 @@
+import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
-# Initialize the Gemini API (you'll need to add your API key)
-genai.configure(api_key='YOUR_GEMINI_API_KEY')
+# Load environment variables from .env file
+load_dotenv()
+
+# Initialize the Gemini API using the API key from .env
+api_key = os.getenv('GEMINI_API_KEY')
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel('gemini-pro')
 
 def generate_content(prompt):

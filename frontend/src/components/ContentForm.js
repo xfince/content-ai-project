@@ -19,11 +19,11 @@ function ContentForm({ onGenerate, onModerate }) {
         onChange={(e) => setInput(e.target.value)}
         placeholder="Enter a prompt or content to moderate"
         rows="4"
-        cols="50"
       />
-      <br />
-      <button type="submit">Generate Content</button>
-      <button type="button" onClick={handleModerate}>Moderate Content</button>
+      <div>
+        <button type="submit">Generate Content</button>
+        <button type="button" onClick={handleModerate}>Moderate Content</button>
+      </div>
     </form>
   );
 }
