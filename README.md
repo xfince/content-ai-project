@@ -123,3 +123,10 @@ This project focuses on content generation and moderation to address inappropria
 
 - **Model Enhancement:**
   - Regularly update and fine-tune Generative AI models to improve content quality and relevance.
+    
+## Deployment
+The application is deployed on Render. You can access the live version here:
+[Live Site](https://content-ai-project-1.onrender.com)
+
+## Contributors
+-**Kimani Vincent King'atua**: [Github Profile](https://github.com/xfince)
