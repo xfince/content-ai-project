@@ -3,7 +3,7 @@
 ## 1. System Design and Architecture
 
 **System Overview:**
-This project focuses on content generation and moderation to address inappropriate and low-quality content. It is designed with a modular architecture to handle text generation using Generative AI and content moderation using NLP techniques.
+This project focuses on content generation and moderation to address inappropriate and low-quality content. It is designed with a modular architecture to handle text generation using Gemini AI and content moderation using NLP techniques.
 
 **Architecture:**
 
@@ -22,11 +22,6 @@ This project focuses on content generation and moderation to address inappropria
     - `content_generator.py`: Handles content generation using a Generative AI model.
     - `content_moderator.py`: Manages content moderation using NLP techniques.
     - `community_guidelines.py`: Contains community guidelines for moderation.
-
-- **Testing:**
-  - **Files:**
-    - `tests/test_content_generator.py`: Unit tests for content generation.
-    - `tests/test_content_moderator.py`: Unit tests for content moderation.
 
 **System Flow:**
 1. User submits a prompt via the frontend `ContentForm.js`.
@@ -63,6 +58,7 @@ This project focuses on content generation and moderation to address inappropria
 3. **Run the Backend Server:**
    - Start the Flask application:
      ```bash
+     cd backened
      python app.py
      ```
 
@@ -94,8 +90,8 @@ This project focuses on content generation and moderation to address inappropria
 ## 3. Explanation of the Algorithms and Models Used
 
 **Content Generation:**
-- **Model:** GPT-3.5 or GPT-4 (Generative AI model)
-- **Method:** Uses the `transformers` library to generate text based on user prompts.
+- **Model:** GEMINI AI PRO
+- **Method:** Uses the `google-generativeai` library to generate text based on user prompts.
 
 **Content Moderation:**
 - **Techniques:** NLP-based moderation, including keyword-based checks and sentiment analysis.
